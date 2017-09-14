@@ -1,0 +1,174 @@
+body {
+    background: #fffbd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b20a2c, #fffbd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b20a2c, #fffbd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    font-family: 'montserrat';
+    font-size: 24px;
+}
+
+#container {
+    width: 80%;
+    background-color: #003a72;
+    margin: auto;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+header {
+    text-align: center;
+    border-bottom: #bf0026 ridge 10px;
+    height: 600px;
+    background: rgba(255, 244, 242, 1);
+    background: -moz-linear-gradient(top, rgba(255, 244, 242, 1) 0%, rgba(255, 244, 242, 1) 50%, rgba(255, 38, 0, 1) 50%, rgba(231, 56, 39, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 244, 242, 1)), color-stop(50%, rgba(255, 244, 242, 1)), color-stop(50%, rgba(255, 38, 0, 1)), color-stop(100%, rgba(231, 56, 39, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 244, 242, 1) 0%, rgba(255, 244, 242, 1) 50%, rgba(255, 38, 0, 1) 50%, rgba(231, 56, 39, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 244, 242, 1) 0%, rgba(255, 244, 242, 1) 50%, rgba(255, 38, 0, 1) 50%, rgba(231, 56, 39, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 244, 242, 1) 0%, rgba(255, 244, 242, 1) 50%, rgba(255, 38, 0, 1) 50%, rgba(231, 56, 39, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 244, 242, 1) 0%, rgba(255, 244, 242, 1) 50%, #b20a2c 50%, #d1002a 100%);
+    background-position: center;
+    background-size: cover;
+}
+
+.header img {
+    padding-top: 20px;
+    position: relative;
+    z-index: 2;
+    -webkit-filter: drop-shadow(0px 0px 3px #222);
+    filter: drop-shadow(0px 0px 3px #222);
+}
+
+#container .header .header__column {
+    text-align: -webkit-center;
+}
+
+.header__circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #b20a2c;
+    background-image: url(../img/polandball___first_attempt_by_sevgart-da8bwn7.png);
+    background-size: 100px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 244, 242, 1);
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.4), inset 0px 0px 10px black;
+}
+
+.header__circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #b20a2c;
+    background-image: url(../img/0e89365fc1bfdbc62be53961e29130985bd1b3fa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 244, 242, 1);
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.4), inset 0px 0px 10px black;
+}
+
+.header__circle3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #b20a2c;
+    background-image: url(../img/Wallpaper-2-natura-moarta-large.jpg);
+    background-size: cover;
+    background-position: -120px 0px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 244, 242, 1);
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.4), inset 0px 0px 10px black;
+}
+
+.header .header__h1 {
+    font-size: 240px;
+    color: #fff;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgb(128, 0, 0), 4px 4px 3px rgb(188, 0, 0), 6px 6px 3px rgb(208, 0, 0), 8px 8px 3px rgb(255, 23, 23), 10px 10px 3px rgb(255, 69, 69);
+    position: absolute;
+    z-index: 0;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 90px;
+}
+
+.header .header__p {
+    color: rgba(255, 244, 242, 1);
+    font-size: 60px;
+    font-family: 'montserrat';
+}
+
+.questions .questions__container {
+    padding: 30px 100px;
+    letter-spacing: 2px;
+}
+
+.questions__container--inner input[type="radio"],
+.questions__container--inner input[type="checkbox"] {
+    display: none;
+}
+
+.questions__container--inner span::before,
+.questions__container--inner span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.questions__container--inner label {
+    position: relative;
+}
+
+.questions__container--inner span.radio:hover {
+    cursor: pointer;
+}
+
+.questions__container--inner span.radio::before {
+    left: -52px;
+    width: 45px;
+    height: 25px;
+    background-color: #A8AAC1;
+    border-radius: 50px;
+}
+
+.questions__container--inner span.radio::after {
+    left: -49px;
+    width: 17px;
+    height: 17px;
+    border-radius: 10px;
+    background-color: #6C788A;
+    transition: left .25s, background-color .25s;
+}
+
+input[type="radio"]:checked+label span.radio::after {
+    left: -27px;
+    background-color: #4fff41;
+}
+
+#results {
+    color: #fff;
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to bottom, #1F1C18, #8E0E00);
+    background: linear-gradient(to bottom, #1F1C18, #8E0E00);
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+#results h3 {
+    font-size: 36px;
+    padding: 20px;
+}
+
+.btn {
+    width: 100%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+}
