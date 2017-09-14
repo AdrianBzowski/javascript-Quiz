@@ -49,7 +49,7 @@ function submitAnswers() {
         }
     }
     //set answers
-    var answers = ['b', 'd', 'c', 'b', 'b', 'c', 'a', 'a', 'a', 'd'];
+    var answers = ['b', 'd', 'c', 'a', 'b', 'c', 'a', 'a', 'a', 'd'];
 
     //check answers
     for (i = 1; i <= total; i++) {
